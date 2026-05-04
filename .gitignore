@@ -1,0 +1,28 @@
+
+# Ignore all x64 folders recursively
+x64/
+**/x64/
+
+.vs/
+
+# Ignore visual studio build files
+VCFImporter/
+packages/
+
+# ignore cmake build files
+build/
+
+# ignore misc
+assignment.final.vcf
+assignment (1).vcf.gz
+
+# ignore db files
+vcf_database.db
+vcf_database.db-shm
+vcf_database.db-wal
+assignment.1000.vcf
+assignment.10000.vcf
+
+
+# ignore logs
+app.log
